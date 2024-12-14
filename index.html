@@ -22,6 +22,28 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+
+
+    <style>
+        /* Floating WhatsApp Icon */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 24px;
+            transition: transform 0.3s ease;
+            z-index: 99;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+    </style>
 </head>
 
 <body>
@@ -74,6 +96,16 @@
         </div>
     </header>
     <!-- Header End -->
+
+
+    <!-- WhatsApp Floating Icon -->
+    <a href="https://wa.me/+917903243157" target="_blank" class="whatsapp-float">
+        <img src="./img/services/whataap_icon.gif" alt="WhatsApp" style="width: 50px; height: 50px;" />
+    </a>
+
+    <!-- Bootstrap Icons CDN for WhatsApp Icon -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.js"></script>
+
 
     <!-- Hero Section Begin -->
     <section class="hero-section">
@@ -173,31 +205,43 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-item">
-                        <img src="img/services/service-1.png" alt="">
-                        <h3>Shooting</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <img src="img/services/drone.jpg" alt="">
+                        <h3>Drone Shoot</h3>
+                        <p>Capture stunning aerial footage with our Drone Shoot service. Using advanced, high-resolution
+                            drones, we provide breathtaking perspectives that are perfect for showcasing landscapes,
+                            for a more dynamic and creative approach to your visuals. Whether you’re looking for
+                            sweeping,
+                            real estate, outdoor events, and cinematic scenes.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-item">
-                        <img src="img/services/service-2.jpg" alt="">
-                        <h3>Videos</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <img src="img/services/cemetogrpahy.jpg" alt="">
+                        <h3>Cinematic Shoot</h3>
+                        <p>Elevate your visuals with our Cinematic Shoot service. We create movie-quality footage with
+                            professional cameras, lenses, and lighting setups to ensure stunning, high-definition
+                            results. Every shot is carefully composed, lit, and color-graded to bring drama and
+                            sophistication to your project. Whether it's a commercial, music video, or short film, we
+                            deliver captivating, cinematic visuals.</p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="services-item">
-                        <img src="img/services/service-3.jpg" alt="">
-                        <h3>Editing</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                            magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                        <img src="img/services/photography.jpg" alt="">
+                        <h3>Photography</h3>
+                        <p>Our Photography service delivers high-quality images for any occasion. Whether it's
+                            portraits, events, or product shots, our expert photographers capture your vision with
+                            compelling, well-composed images. We specialize in creating emotional, storytelling
+                            photographs, with styles ranging from candid to posed. Every image is crafted to perfectly
+                            meet your needs.</p>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
     <!-- Services Section End -->
 
     <!-- Categories Section Begin -->
@@ -255,6 +299,132 @@
         </div>
     </section> -->
     <!-- Categories Section End -->
+
+
+    <!-- OurTeam -->
+    <section class="portfolio-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Our latest works</h2>
+                    </div>
+                    <div class="filter-controls">
+                        <ul>
+                            <!-- <li class="active" data-filter="*">All</li> -->
+                            <li data-filter=".fashion">Wedding Photos</li>
+                            <li data-filter=".lifestyle">Wedding Videos</li>
+                            <li data-filter=".natural">Preweeding Videos</li>
+                            <li data-filter=".wedding">Music Videos</li>
+                            <li data-filter=".videos">Music Recording</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 p-0">
+                    <div class="portfolio-filter">
+                        <div class="pf-item set-bg fashion" data-setbg="img/portfolio/pf-1.jpg">
+                            <a href="img/portfolio/pf-1.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg lifestyle"
+                            data-setbg="img/portfolio/pf-2.jpg">
+                            <a href="img/portfolio/pf-2.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg natural" data-setbg="img/portfolio/pf-3.jpg">
+                            <a href="img/portfolio/pf-3.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-height set-bg wedding" data-setbg="img/portfolio/pf-4.jpg">
+                            <a href="img/portfolio/pf-4.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg lifestyle" data-setbg="img/portfolio/pf-7.jpg">
+                            <a href="img/portfolio/pf-7.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg natural" data-setbg="img/portfolio/pf-8.jpg">
+                            <a href="img/portfolio/pf-8.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg videos" data-setbg="img/portfolio/pf-5.jpg">
+                            <a href="img/portfolio/pf-5.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg fashion" data-setbg="img/portfolio/pf-6.jpg">
+                            <a href="img/portfolio/pf-6.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width set-bg videos" data-setbg="img/portfolio/pf-10.jpg">
+                            <a href="img/portfolio/pf-10.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item set-bg fashion" data-setbg="img/portfolio/pf-11.jpg">
+                            <a href="img/portfolio/pf-11.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                        <div class="pf-item large-width large-height set-bg wedding"
+                            data-setbg="img/portfolio/pf-9.jpg">
+                            <a href="img/portfolio/pf-9.jpg" class="pf-icon image-popup"><span
+                                    class="icon_plus"></span></a>
+                            <div class="pf-text">
+                                <h4>COLORS SPEAK</h4>
+                                <span>Fashion</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="load-more-btn">
+            <a href="#">Load More</a>
+        </div>
+    </section>
+    <!-- Our Team End -->
 
     <!-- Portfolio Section Begin -->
     <section class="portfolio-section spad">
@@ -439,7 +609,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12">About
                     <div class="copyright-text">
                         <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             Copyright &copy;
